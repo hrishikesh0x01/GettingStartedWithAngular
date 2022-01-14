@@ -1,0 +1,5 @@
+#header {
+    width: max(calc(100vw - 16px), 620px);
+    height: max(7vh, 30px);
+    background-color: aqua;
+}

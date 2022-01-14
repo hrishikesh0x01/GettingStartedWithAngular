@@ -1,0 +1,6 @@
+#sidebar {
+    width: 120px;
+    height: max(calc(93vh - 16px), 500px);
+    display: inline-block;
+    background-color: brown;
+}
