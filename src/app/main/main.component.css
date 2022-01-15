@@ -1,8 +1,13 @@
 #main {
     display: inline-block;
-    background-color: blueviolet;
+    background-color: rgba(64, 121, 0, 0.568);
     position: absolute;
     left: calc(120px);
     top: 37px;
+    width: calc(100% - 136px);
     padding: 8px;
+}
+
+#vid, #svg {
+    padding: 20px;
 }

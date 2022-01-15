@@ -1,10 +1,9 @@
 #sidebar {
     position: fixed;
     top: 37px;
+    bottom: 0px;
     width: 104px;
-    /* height: 100%; */
-    display: inline-block;
-    background-color: brown;
+    background-color: rgba(146, 0, 231, 0.5);
     padding: 8px;
 }
 

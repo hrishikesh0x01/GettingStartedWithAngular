@@ -1,3 +1,101 @@
 <main id="main">
-    Bruhhhh
+    <form action="" method="post">
+        <h1>
+            Registration Form
+        </h1>
+        <!-- fieldset is a container that groups input elements and other related elements -->
+        <!-- fieldset also visually separates the contained elements from other elements -->
+        <!-- legend gives a label to fieldset -->
+        <fieldset style="width: fit-content; padding: 30px; margin: 10px;">
+            <legend>
+                Name Info
+            </legend>
+            <label for="fname">
+                <span style="color: rgb(240, 0, 0);">
+                    *
+                </span>
+                First Name:
+            </label>
+            <!-- the required attribute specifies that this input field cannot be empty -->
+            <input type="text" name="fname" id="fname" required>
+            <label for="fname" style="padding-left: 20px;">
+                Middle Name:
+            </label>
+            <input type="text" name="mname" id="mname">
+            <label for="fname" style="padding-left: 20px;">
+                Last Name:
+            </label>
+            <input type="text" name="lname" id="lname">
+        </fieldset>
+        <fieldset style="width: fit-content; padding: 30px; padding-top: 15px; margin: 10px;">
+            <legend>
+                E-mail & Password
+            </legend>
+            <!-- used table just so it looks better -->
+            <table>
+                <tr>
+                    <td>
+                        <label for="email">
+                            <span style="color: rgb(240, 0, 0);">
+                                *
+                            </span>
+                            E-mail:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="email" name="email" id="email" style="margin: 15px 0px;" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span style="color: rgb(240, 0, 0);">
+                            *
+                        </span>
+                        <label for="pass">
+                            Password:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="password" name="pass" id="pass" style="margin: 15px 0px;" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span style="color: rgb(240, 0, 0);">
+                            *
+                        </span>
+                        <label for="pass-confirm">
+                            Confirm Password:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="password" name="pass-confirm" id="pass-confirm" style="margin: 15px 0px;" required>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <!-- submit button submits the entered data to url specified in the action attribute of form element -->
+        <button type="submit" style="margin-left: 15px;">
+            Register
+        </button>
+        <!-- reset button resets the form data to how it was initially -->
+        <button type="reset">
+            Reset
+        </button>
+    </form>
+    <div id="vid">
+        <video height="216" width="384" controls autoplay>
+            <source src="assets/videos/sample.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div id="svg">
+        <svg width="100" height="100">
+            <path d="M 10 10 H 90 V 90 H 10 L 10 10"/>
+            <!-- Points -->
+            <circle cx="10" cy="10" r="2" fill="red"/>
+            <circle cx="90" cy="90" r="2" fill="red"/>
+            <circle cx="90" cy="10" r="2" fill="red"/>
+            <circle cx="10" cy="90" r="2" fill="red"/>
+        </svg>
+    </div>
 </main>

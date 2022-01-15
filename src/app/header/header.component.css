@@ -4,7 +4,7 @@
     right: 0px;
     z-index: 20;
     height: 21px;
-    background-color: aqua;
+    background-color: rgba(0, 245, 184, 0.6);
     vertical-align: middle;
     padding: 8px;
 }
