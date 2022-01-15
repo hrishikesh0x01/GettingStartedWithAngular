@@ -5,6 +5,7 @@
     left: calc(120px);
     top: 37px;
     width: calc(100% - 136px);
+    min-width: min-content;
     padding: 8px;
 }
 
