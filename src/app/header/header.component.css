@@ -1,5 +1,19 @@
 #header {
-    width: max(calc(100vw - 16px), 620px);
-    height: max(7vh, 30px);
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    z-index: 20;
+    height: 21px;
     background-color: aqua;
+    vertical-align: middle;
+    padding: 8px;
+}
+
+a {
+    padding: 0px max(2vw, 13px);
+}
+
+#bsi {
+    float: right;
+    margin-right: 16px;
 }

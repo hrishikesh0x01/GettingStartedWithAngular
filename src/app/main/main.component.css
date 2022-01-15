@@ -1,9 +1,8 @@
 #main {
-    width: max(calc(100vw - 136px), 500px);
-    height: max(calc(93vh - 16px), 500px);
     display: inline-block;
     background-color: blueviolet;
     position: absolute;
-    left: calc(120px + 8px);
-    top: calc(max(7vh, 30px) + 8px);
+    left: calc(120px);
+    top: 37px;
+    padding: 8px;
 }

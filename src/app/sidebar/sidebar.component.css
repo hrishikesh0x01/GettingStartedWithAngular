@@ -1,6 +1,18 @@
 #sidebar {
-    width: 120px;
-    height: max(calc(93vh - 16px), 500px);
+    position: fixed;
+    top: 37px;
+    width: 104px;
+    /* height: 100%; */
     display: inline-block;
     background-color: brown;
+    padding: 8px;
+}
+
+ul {
+    padding: 15px;
+    list-style-type: disc;
+}
+
+li {
+    padding: 10px 0px;
 }
